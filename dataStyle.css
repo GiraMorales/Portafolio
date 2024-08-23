@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+:root {
+  /*COLORS*/
+  --ptf-color-1: #ffffff;
+  --ptf-color-2: #000000;
+  --ptf-color-3: #2c2c2c;
+  --ptf-color-4: #dbdbdb;
+  --ptf-color-5: #ada55b;
+  --ptf-color-6: #ff9100;
+  --ptf-color-7: rgba(252, 249, 96, 0.767);
+  --ptf-special-color-1: rgba(46, 46, 45, 0.747);
+  --ptf-special-color-2: rgb(204, 203, 169);
+  --ptf-special-color-3: rgb(222, 255, 239);
+  --ptf-special-color-4: rgb(223, 231, 199);
+  --ptf-special-color-5: rgb(255, 237, 208);
+  --ptf-special-color-6: rgb(228, 230, 249);
+  --ptf-special-color-7: rgb(163, 94, 94);
+  --ptf-special-color-8: rgb(251, 244, 179);
+
+  --ptf-bgColor: var(--ptf-color-2);
+  --ptf-borderColor: var(--ptf-color-4);
+  --ptf-text: var(--ptf-color-1);
+  --ptf-textBarra: var(--ptf-color-6);
+  --ptf-boton: var(--ptf-color-5);
+  --ptf-card: var(--ptf-color-4);
+
+  /*BORDER RADIUS*/
+  --ptf-boder-radius: 30px;
+
+  /* FONTSIZE */
+  --ptf-fontsize-xs: 5px;
+  --ptf-fontsize-s: 1vh;
+  --ptf-fontsize-m: 2vh;
+  --ptf-fontsize-l: 2.5vh;
+  --ptf-fontsize-xl: 4vh;
+
+  /*SPACINGS*/
+  --ptf-margin-xs: 5px;
+  --ptf-margin-s: 10px;
+  --ptf-margin-m: 20px;
+  --ptf-margin-l: 30px;
+  --ptf-margin-xl: 40px;
+
+  --ptf-padding-xs: 5px;
+  --ptf-padding-s: 10px;
+  --ptf-padding-m: 25px;
+  --ptf-padding-l: 30px;
+  --ptf-padding-xl: 40px;
+
+  --ptf-gap-xs: 10px;
+  --ptf-gap-s: 10px;
+  --ptf-gap-m: 20px;
+  --ptf-gap-l: 30px;
+  --ptf-gap-xl: 40px;
+
+  /* FONTS */
+  --ptf-font-family: 'DM Serif Text', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--ptf-font-family);
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

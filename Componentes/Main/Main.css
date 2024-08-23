@@ -1,0 +1,32 @@
+main {
+  overflow-y: auto;
+}
+
+#change {
+  background-color: var(--ptf-bgColor);
+  color: var(--ptf-boton);
+  border-radius: var(-ptf-boder-radius);
+  padding: 10px 20px;
+  font-size: var(--ptf-fontsize-l);
+  font-weight: 600;
+  border-color: var(--ptf-color-3);
+  cursor: pointer;
+  margin-top: 5%;
+}
+
+#change:hover {
+  background-color: var(--ptf-special-color-1);
+  color: var(--ptf-color-);
+  border-radius: var(-ptf-boder-radius);
+  padding: 10px 20px;
+  font-size: var(--ptf-fontsize-l);
+  font-weight: 600;
+  border-color: var(--ptf-color-3);
+  margin-top: 5%;
+}
+
+.change-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

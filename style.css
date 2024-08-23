@@ -1,0 +1,50 @@
+body {
+  background-image: url('https://www.transparenttextures.com/patterns/diagmonds.png');
+  background-color: var(--ptf-color-2);
+  color: var(--ptf-color-1);
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--ptf-color-6);
+  letter-spacing: 4px;
+}
+h2 {
+  font-size: var(--ptf-fontsize-xl);
+}
+h3 {
+  font-size: var(--ptf-fontsize-l);
+}
+
+h4 {
+  font-size: var(--ptf-fontsize-m);
+}
+p {
+  color: var(--ptf-color-7);
+  font-size: var(--ptf-fontsize-m);
+}
+.aboutme ul > li > p {
+  font-size: var(--ptf-fontsize-l);
+}
+a {
+  font-size: var(--ptf-fontsize-l);
+  transition: 0.4s;
+}
+
+a:hover {
+  color: var(--ptf-color-1);
+}
+
+main {
+  height: calc(100vh - 180px - 80px);
+  scroll-behavior: smooth;
+}
+
+section {
+  min-height: 100%;
+}

@@ -1,0 +1,13 @@
+header {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+
+header li {
+  text-align: center;
+}
