@@ -3,11 +3,14 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 1%;
+  margin: 1% 5%;
 }
 
 header li {
   text-align: center;
+}
+
+header li:hover {
+  text-align: center;
+  transform: scale(110%);
 }

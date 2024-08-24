@@ -38,6 +38,7 @@ a {
 
 a:hover {
   color: var(--ptf-color-1);
+  transform: scale(110%);
 }
 
 main {
