@@ -1,6 +1,6 @@
 @media screen and (min-width: 200px) {
   a {
-    font-size: var(--ptf-fontsize-xs);
+    font-size: var(--ptf-fontsize-s);
     letter-spacing: 1px;
   }
   h1,
@@ -23,14 +23,21 @@
   }
   .aboutme > p {
     min-width: 90%;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  #education p {
+  a {
     font-size: var(--ptf-fontsize-m);
+    letter-spacing: 1px;
   }
-  .aboutme .icono {
-    width: 60%;
+  h1,
+  .aboutme p,
+  .projects p,
+  .projects a,
+  #education p,
+  .experience p {
+    font-size: var(--ptf-fontsize-s);
   }
   h2 {
     font-size: var(--ptf-fontsize-l);
@@ -39,6 +46,9 @@
 
 @media screen and (min-width: 992px) {
   a {
+    font-size: var(--ptf-fontsize-m);
+  }
+  h1 {
     font-size: var(--ptf-fontsize-m);
   }
 }
@@ -54,6 +64,12 @@
 
   h2 {
     font-size: var(--ptf-fontsize-l);
+  }
+  h1 {
+    font-size: var(--ptf-fontsize-l);
+  }
+  .aboutme .icono {
+    width: 50%;
   }
 }
 
