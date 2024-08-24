@@ -5,25 +5,33 @@
   }
   h1,
   .aboutme p,
-  .projects p {
+  .projects p,
+  #education p,
+  .experience p {
     font-size: var(--ptf-fontsize-s);
   }
-  h2 {
+  h2,
+  .experience h3,
+  .experience h4 {
     font-size: var(--ptf-fontsize-m);
   }
   .aboutme h3 {
     display: none;
   }
-  #education p {
-    font-size: var(--ptf-fontsize-s);
-  }
   .aboutme .icono {
     width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
   #education p {
     font-size: var(--ptf-fontsize-m);
+  }
+  .aboutme .icono {
+    width: 60%;
+  }
+  h2 {
+    font-size: var(--ptf-fontsize-l);
   }
 }
 
@@ -40,6 +48,10 @@
   .aboutme h3 {
     display: inline;
     font-size: var(--ptf-fontsize-m);
+  }
+
+  h2 {
+    font-size: var(--ptf-fontsize-l);
   }
 }
 
