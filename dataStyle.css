@@ -29,11 +29,11 @@
   --ptf-boder-radius: 30px;
 
   /* FONTSIZE */
-  --ptf-fontsize-xs: 5px;
-  --ptf-fontsize-s: 1vh;
+  --ptf-fontsize-xs: 1.2vh;
+  --ptf-fontsize-s: 1.5vh;
   --ptf-fontsize-m: 2vh;
   --ptf-fontsize-l: 2.5vh;
-  --ptf-fontsize-xl: 5vh;
+  --ptf-fontsize-xl: 2.75vh;
 
   /*SPACINGS*/
   --ptf-margin-xs: 5px;

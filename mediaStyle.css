@@ -1,23 +1,52 @@
-@media screen and (min-width: 576px) {
-  .projects {
-    /* grid-template-columns: repeat(1, fr); */
+@media screen and (min-width: 200px) {
+  a {
+    font-size: var(--ptf-fontsize-xs);
+    letter-spacing: 1px;
   }
+  h1,
+  .aboutme p,
+  .projects p {
+    font-size: var(--ptf-fontsize-s);
+  }
+  h2 {
+    font-size: var(--ptf-fontsize-m);
+  }
+  .aboutme h3 {
+    display: none;
+  }
+  #education p {
+    font-size: var(--ptf-fontsize-s);
+  }
+  .aboutme .icono {
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .projects {
-    /* grid-template-columns: repeat(3, 1fr); */
+  #education p {
+    font-size: var(--ptf-fontsize-m);
   }
 }
 
 @media screen and (min-width: 992px) {
-  .projects {
-    /* grid-template-columns: repeat(4, 1fr); */
+  a {
+    font-size: var(--ptf-fontsize-m);
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .projects {
-    /* grid-template-columns: repeat(6, 1fr); */
+@media screen and (min-width: 1250px) {
+  a {
+    font-size: var(--ptf-fontsize-l);
+  }
+  .aboutme h3 {
+    display: inline;
+    font-size: var(--ptf-fontsize-m);
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  a,
+  .aboutme h3 {
+    display: inline;
+    font-size: var(--ptf-fontsize-l);
   }
 }
