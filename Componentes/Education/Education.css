@@ -15,6 +15,13 @@
   max-width: 600px;
   padding: 2rem;
 }
+.education p {
+}
 .education h2 {
   color: var(--ptf-special-color-8);
+}
+
+.education p,
+h4 {
+  font-size: var(--ptf-fontsize-l);
 }

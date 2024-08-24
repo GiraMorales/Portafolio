@@ -26,7 +26,7 @@
 
 .projects img {
   width: 100%;
-  height: 350px;
+  height: 270px;
   object-fit: cover;
 }
 
@@ -34,6 +34,13 @@
   padding: 2px 8px;
   background-color: var(--heading);
   color: var(--background);
+  transform: scale(110%);
+}
+.projects a:hover {
+  padding: 2px 8px;
+  background-color: var(--heading);
+  color: var(--background);
+  transform: scale(130%);
 }
 
 .projects h3 {

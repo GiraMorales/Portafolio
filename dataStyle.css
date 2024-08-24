@@ -4,7 +4,7 @@
   /*COLORS*/
   --ptf-color-1: #ffffff;
   --ptf-color-2: #000000;
-  --ptf-color-3: #2c2c2c;
+  --ptf-color-3: #4e4646;
   --ptf-color-4: #dbdbdb;
   --ptf-color-5: #ada55b;
   --ptf-color-6: #ff9100;
@@ -33,7 +33,7 @@
   --ptf-fontsize-s: 1vh;
   --ptf-fontsize-m: 2vh;
   --ptf-fontsize-l: 2.5vh;
-  --ptf-fontsize-xl: 4vh;
+  --ptf-fontsize-xl: 5vh;
 
   /*SPACINGS*/
   --ptf-margin-xs: 5px;
