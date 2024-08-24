@@ -21,6 +21,8 @@
   .aboutme .icono {
     width: 100%;
   }
+  .aboutme > p {
+    min-width: 90%;
 }
 
 @media screen and (min-width: 768px) {
