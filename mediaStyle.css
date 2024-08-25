@@ -21,7 +21,7 @@
   .aboutme .icono {
     width: 100%;
   }
-  .aboutme > p {
+  .aboutme p {
     min-width: 90%;
   }
 }
@@ -42,6 +42,10 @@
 @media screen and (min-width: 992px) {
   h1 {
     font-size: var(--ptf-fontsize-l);
+  }
+  .aboutme p {
+    min-width: 50%;
+    font-size: var(--ptf-fontsize-m);
   }
 }
 
