@@ -1,0 +1,23 @@
+@media screen and (min-width: 576px) {
+  .projects {
+    grid-template-columns: repeat(1, fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .projects {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
