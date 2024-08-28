@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+@media screen and (min-width: 576px) {
+  .projects {
+    grid-template-columns: repeat(1, fr);
+=======
 @media screen and (min-width: 200px) {
   a {
     font-size: var(--ptf-fontsize-s);
@@ -23,10 +28,15 @@
   }
   .aboutme p {
     min-width: 90%;
+>>>>>>> 5560fdea7136004bf5008cebae1d71ae4cca546c
   }
 }
 
 @media screen and (min-width: 768px) {
+<<<<<<< HEAD
+  .projects {
+    grid-template-columns: repeat(3, 1fr);
+=======
   a {
     font-size: var(--ptf-fontsize-m);
     letter-spacing: 1px;
@@ -36,10 +46,21 @@
   }
   h2 {
     font-size: var(--ptf-fontsize-l);
+>>>>>>> 5560fdea7136004bf5008cebae1d71ae4cca546c
   }
 }
 
 @media screen and (min-width: 992px) {
+<<<<<<< HEAD
+  .projects {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .projects {
+    grid-template-columns: repeat(6, 1fr);
+=======
   h1 {
     font-size: var(--ptf-fontsize-l);
   }
@@ -71,5 +92,6 @@
   .aboutme h3 {
     display: inline;
     font-size: var(--ptf-fontsize-l);
+>>>>>>> 5560fdea7136004bf5008cebae1d71ae4cca546c
   }
 }
