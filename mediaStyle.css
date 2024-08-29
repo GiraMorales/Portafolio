@@ -31,9 +31,6 @@
     font-size: var(--ptf-fontsize-m);
     letter-spacing: 1px;
   }
-  h1 {
-    font-size: var(--ptf-fontsize-m);
-  }
   h2 {
     font-size: var(--ptf-fontsize-l);
   }
@@ -41,7 +38,7 @@
 
 @media screen and (min-width: 992px) {
   h1 {
-    font-size: var(--ptf-fontsize-l);
+    font-size: var(--ptf-fontsize-m);
   }
   .aboutme p {
     min-width: 50%;
@@ -52,14 +49,14 @@
 @media screen and (min-width: 1250px) {
   a,
   h2 {
-    font-size: var(--ptf-fontsize-l);
+    font-size: var(--ptf-fontsize-m);
   }
   .aboutme h3 {
     display: inline;
-    font-size: var(--ptf-fontsize-m);
+    font-size: var(--ptf-fontsize-xs);
   }
   h1 {
-    font-size: var(--ptf-fontsize-xl);
+    font-size: var(--ptf-fontsize-l);
   }
   .aboutme .icono {
     width: 50%;
@@ -70,6 +67,6 @@
   a,
   .aboutme h3 {
     display: inline;
-    font-size: var(--ptf-fontsize-l);
+    font-size: var(--ptf-fontsize-s);
   }
 }
