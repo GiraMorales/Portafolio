@@ -7,9 +7,10 @@ const template = () => {
       <h2>Educacion</h2>
       <h3>${data.education.degree}</h3>
       <h4>${data.education.university}</h4>
-      <p>${data.education.graduationYear}</p>
       <p>${data.education.honors}</p>
-      <h3>Cursos Relevantes</h3>
+           <p>${data.education.graduationYear}</p>
+     </br>
+           <h3>Otros Cursos</h3>
       <ul id="relevantcourses">
       ${data.education.relevantCourses
         .map(

@@ -9,18 +9,17 @@ const data = {
     'Además, cuento con un curso en mantenimiento de ordenadores, un certificado avanzado en Paquete Office, y una sólida base técnica que se extiende a mi experiencia laboral en roles de procesamiento de datos y key management.',
 
   education: {
-    degree: 'Full Stack Developer',
-    university: 'The Power',
+    degree: '',
+    university: 'THE POWER',
     graduationYear: 'Actualmente',
-    honors: '',
-
+    honors: 'Full Stack Developer',
     relevantCourses: [
-      'Figma',
-      'Inteligencia Artifical',
-      'Adobe: Photoshop, Illustrator, Premier, After Effects',
       'Canva',
       'Maya',
-      'Paquete Office'
+      'Figma',
+      'Paquete Office',
+      'Inteligencia Artifical',
+      'Photoshop, Illustrator, Premier, After Effects'
     ]
   },
   workExperience: [
@@ -59,13 +58,13 @@ const data = {
     },
     {
       icono:
-        'https://res.cloudinary.com/dvoady6dt/image/upload/v1724402274/iconos/nzekjmivjznvlda7zfis.png',
-      nombre: 'SAP'
+        'https://res.cloudinary.com/dvoady6dt/image/upload/v1724494412/iconos/hjbopclwnmonjrhomydq.png',
+      nombre: 'GIT'
     },
     {
       icono:
-        'https://res.cloudinary.com/dvoady6dt/image/upload/v1724402274/iconos/mpecfmq3yuogdeyc9tmr.png',
-      nombre: 'SQL'
+        'https://res.cloudinary.com/dvoady6dt/image/upload/v1724402274/iconos/nzekjmivjznvlda7zfis.png',
+      nombre: 'SAP'
     },
     {
       icono:
