@@ -8,11 +8,12 @@
 }
 
 .aboutme > img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
   cursor: pointer;
+  background-color: var(--ptf-color-3);
 }
 
 .aboutme > .rotate {
@@ -29,7 +30,6 @@
   gap: 1rem;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 
 .aboutme li {
@@ -37,11 +37,10 @@
   align-items: center;
   flex-direction: column;
   padding: 4px 10px;
-  background-color: var(--ptf-special-color-1);
+  background-color: var(--ptf-color-3);
   border-radius: 1rem;
   color: var(--ptf-special-color-2);
-  width: 15%;
-  height: 52%;
+  width: 10%;
   gap: var(--ptf-gap-s);
 }
 

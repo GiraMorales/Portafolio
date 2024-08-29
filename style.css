@@ -38,6 +38,7 @@ a {
 
 a:hover {
   color: var(--ptf-color-1);
+  transform: scale(110%);
 }
 
 main {
@@ -47,4 +48,7 @@ main {
 
 section {
   min-height: 100%;
+}
+::-webkit-scrollbar {
+  display: none;
 }

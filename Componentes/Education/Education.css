@@ -1,7 +1,6 @@
 .education {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   text-align: center;
   gap: 1rem;
@@ -15,6 +14,12 @@
   max-width: 600px;
   padding: 2rem;
 }
+
 .education h2 {
   color: var(--ptf-special-color-8);
+}
+
+.education p,
+h4 {
+  font-size: var(--ptf-fontsize-l);
 }
