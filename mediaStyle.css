@@ -1,0 +1,75 @@
+@media screen and (min-width: 200px) {
+  a {
+    font-size: var(--ptf-fontsize-s);
+    letter-spacing: 1px;
+  }
+  h1,
+  .aboutme p,
+  .projects p,
+  #education p,
+  .experience p {
+    font-size: var(--ptf-fontsize-s);
+  }
+  h2,
+  .experience h3,
+  .experience h4 {
+    font-size: var(--ptf-fontsize-m);
+  }
+  .aboutme h3 {
+    display: none;
+  }
+  .aboutme .icono {
+    width: 100%;
+  }
+  .aboutme p {
+    min-width: 90%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  a {
+    font-size: var(--ptf-fontsize-m);
+    letter-spacing: 1px;
+  }
+  h1 {
+    font-size: var(--ptf-fontsize-m);
+  }
+  h2 {
+    font-size: var(--ptf-fontsize-l);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: var(--ptf-fontsize-l);
+  }
+  .aboutme p {
+    min-width: 50%;
+    font-size: var(--ptf-fontsize-m);
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  a,
+  h2 {
+    font-size: var(--ptf-fontsize-l);
+  }
+  .aboutme h3 {
+    display: inline;
+    font-size: var(--ptf-fontsize-m);
+  }
+  h1 {
+    font-size: var(--ptf-fontsize-xl);
+  }
+  .aboutme .icono {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1450px) {
+  a,
+  .aboutme h3 {
+    display: inline;
+    font-size: var(--ptf-fontsize-l);
+  }
+}
