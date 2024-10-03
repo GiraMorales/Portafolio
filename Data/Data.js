@@ -77,7 +77,7 @@ const data = {
       title: 'LANDING PAGE',
       description:
         'Mi primer proyecto, con un buen uso de variables CSS, reutilización de estilos con el uso de clases, uso de Grid o Flex. Siendo una página FULL RESPONSIVE con buena semántica y accesibilidad. Uso de alguna meta etiqueta que mejore el SEO. La web contiene enlaces a los productos reales de una página web real y no mía',
-      link: 'https://chimerical-stroopwafel-17a509.netlify.app/',
+      link: 'https://github.com/GiraMorales/Proyecto-Tienda.git',
       preview:
         'https://res.cloudinary.com/dvoady6dt/image/upload/v1724406684/fotos/it458nxssc9ufjpemetk.png'
     },
@@ -85,7 +85,7 @@ const data = {
       title: 'E-COMMERCE CON FILTROS',
       description:
         'En este proyecto he aplicado los conocimientos de JavaScript y DOM para crear una página que responda a cambios aplicados por un usuario y sea totalmente funcional. Para ello, he hecho un "modal" que contenga el formulario de los filtros, para que podamos verlo u ocultarlo a nuestro gusto mediante un click.<br/> También, he puesto una serie de productos pintados (utilizando DOM y teniendo una estructura de objetos dentro de un array para un pintado sencillo y dinámico), que vayan cambiando según los filtros aplicados. Con un código limpio, claro y manteniendo las buenas prácticas.',
-      link: 'hhttps://github.com/GiraMorales/Proyecto2.git',
+      link: 'https://github.com/GiraMorales/Proyecto2.git',
       preview:
         'https://images.unsplash.com/photo-1657812159103-1b2a52a7f5e8?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
